@@ -1,9 +1,10 @@
 {
     "name": "zen/view",
-    "description": "View support of Zen framework.",
-    "version": "0.1.0-dev",
+    "description": "Zen 框架视图包。",
+    "type": "library",
     "keywords": [
-        "zen"
+        "zen",
+        "view"
     ],
     "license": "LGPL-3.0+",
     "authors": [
@@ -15,6 +16,9 @@
     ],
     "require": {
         "zen/core": "*"
+    },
+    "suggest": {
+        "twig/twig": "*"
     },
     "autoload": {
         "psr-4": {
@@ -28,7 +32,8 @@
     },
     "archive": {
         "exclude": [
-            "/share"
+            "/share",
+            ".gitignore"
         ]
     }
 }
